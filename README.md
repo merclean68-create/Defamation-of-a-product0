@@ -1,1 +1,98 @@
 # Defamation-of-a-product0
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>شَهِّر منتجك | الصفحة الرسمية</title>
+  <style>
+    body { font-family: "Segoe UI", Tahoma, Arial, sans-serif; margin: 0; background: #fafafa; color: #222; line-height: 1.8; }
+    header { background: #1c1c1c; color: #ffffff; padding: 70px 20px; text-align: center; position: relative; overflow: hidden; }
+    section { padding: 60px 20px; max-width: 900px; margin: auto; }
+    h1 { font-size: 42px; font-weight: 600; letter-spacing: 1px; }
+    h2 { font-size: 28px; font-weight: 500; color: #1c1c1c; }
+    p { font-size: 18px; color: #444; }
+    .btn { display: inline-block; background: transparent; color: #1c1c1c; padding: 14px 34px; text-decoration: none; border-radius: 30px; font-size: 16px; border: 2px solid #1c1c1c; transition: all 0.3s ease; cursor: pointer; }
+    .btn:hover { background: #1c1c1c; color: #fff; }
+    header .btn { color: #fff; border-color: #fff; }
+    header .btn:hover { background: #fff; color: #1c1c1c; }
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 30px; margin-top: 40px; }
+    .box { background: #ffffff; padding: 35px 25px; border-radius: 0; border: 1px solid #e0e0e0; text-align: center; font-size: 17px; }
+    footer { background: #1c1c1c; color: #ccc; text-align: center; padding: 30px 20px; font-size: 14px; }
+    @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+    .logo-animate { animation: float 3s ease-in-out infinite; }
+    .tutorial-box { background: #fff; border: 2px solid #1c1c1c; border-radius: 10px; padding: 20px; text-align: center; margin-top: 40px; }
+    .tutorial-box iframe { width: 100%; height: 360px; border-radius: 10px; border: none; }
+    .interactive-box { background: #eaeaea; border: 2px dashed #1c1c1c; border-radius: 10px; padding: 25px; text-align: center; margin-top: 40px; animation: float 4s ease-in-out infinite; }
+    .video-interactive { width: 100%; max-width: 600px; margin: 20px auto; display: block; border-radius: 10px; }
+  </style>
+</head>
+<body>
+
+<div style="text-align:center;padding:15px;background:#fff;">
+  <button class="btn" onclick="setLang('ar')">العربية</button>
+  <button class="btn" onclick="setLang('en')">English</button>
+  <button class="btn" onclick="setLang('fr')">Français</button>
+</div>
+
+<header>
+  <div style="display:flex;flex-direction:column;align-items:center;gap:20px;">
+    <!-- استخدام صور من الإنترنت بدل تحميل محلي -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/90/Mercedes-Logo.png" alt="Mercedes-Benz" class="logo-animate" style="max-width:120px; filter: brightness(0) invert(1);" />
+    <div style="position:relative; width:140px; height:140px; margin-top:15px;" class="logo-animate">
+      <div style="position:absolute; top:0; left:0; width:100%; height:100%; border:3px solid #1c1c1c; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:64px; font-weight:bold; color:#1c1c1c;">M</div>
+      <div style="position:absolute; bottom:10px; right:10px; width:40px; height:40px; background:url('https://upload.wikimedia.org/wikipedia/commons/e/e7/Golden_Eagle_in_flight.jpg') no-repeat center/cover;"></div>
+    </div>
+    <h1 data-ar="✨ شَهِّر منتجك ✨" data-en="✨ Promote Your Product ✨" data-fr="✨ Faites connaître votre produit ✨"></h1>
+    <p data-ar="تسليط الضوء على العلامات والمنتجات الأيقونية بأسلوب كلاسيكي احترافي" data-en="Highlighting iconic brands and products with a classic, professional style" data-fr="Mettre en avant des marques et produits iconiques avec un style classique et professionnel"></p>
+    <div style="display:flex;gap:15px;justify-content:center;flex-wrap:wrap;">
+      <a class="btn" href="#discover" data-ar="🔍 اكتشف العلامة" data-en="🔍 Discover the Brand" data-fr="🔍 Découvrir la marque"></a>
+      <a class="btn" href="https://wa.me/213000000000" data-ar="📲 استفسار" data-en="📲 Inquiry" data-fr="📲 Demande"></a>
+    </div>
+  </div>
+</header>
+
+<section id="discover">
+  <h2 data-ar="لماذا هذا المنتج يستحق التشهير؟" data-en="Why does this product deserve exposure?" data-fr="Pourquoi ce produit mérite-t-il d'être mis en avant ?"></h2>
+  <div class="features">
+    <div class="box" data-ar="📢 إبراز الفكرة والقيمة الحقيقية للمنتج" data-en="📢 Highlighting the real value of the product" data-fr="📢 Mettre en avant la vraie valeur du produit"></div>
+    <div class="box" data-ar="🧠 بناء صورة ذهنية قوية عند الجمهور" data-en="🧠 Building a strong brand perception" data-fr="🧠 Construire une image forte dans l'esprit du public"></div>
+    <div class="box" data-ar="⭐ خلق الثقة والمصداقية" data-en="⭐ Creating trust and credibility" data-fr="⭐ Créer la confiance et la crédibilité"></div>
+    <div class="box" data-ar="🚀 زيادة الانتشار والاهتمام" data-en="🚀 Increasing visibility and interest" data-fr="🚀 Augmenter la visibilité et l'intérêt"></div>
+  </div>
+</section>
+
+<section class="tutorial-box">
+  <h2 data-ar="📹 شرح فيديو تعليمي" data-en="📹 Video Tutorial" data-fr="📹 Tutoriel vidéo"></h2>
+  <iframe class="video-interactive" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="شرح الفيديو التعليمي" allowfullscreen></iframe>
+  <p data-ar="هذا الفيديو يوضح كيفية التحكم في موقعك وإضافة الأكواد بنفسك" data-en="This video shows how to manage your site and add your own code" data-fr="Cette vidéo montre comment gérer votre site et ajouter votre propre code"></p>
+</section>
+
+<section class="interactive-box">
+  <h2 data-ar="🖥️ تجربة إضافة كود جديد" data-en="🖥️ Try Adding New Code" data-fr="🖥️ Essayez d'ajouter un nouveau code"></h2>
+  <p data-ar="يمكنك تعديل النص، الضغط على الزر، أو تغيير الصورة المتحركة لتجربة التحكم بنفسك" data-en="You can edit the text, click the button, or change the animated image to try controlling it yourself" data-fr="Vous pouvez modifier le texte, cliquer sur le bouton ou changer l'image animée pour tester vous-même"></p>
+  <!-- فيديو عبر الإنترنت بدل رفع محلي -->
+  <video class="video-interactive" controls>
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    متصفحك لا يدعم عرض الفيديو.
+  </video>
+  <br/>
+  <a class="btn" href="#" onclick="alert('تهانينا! لقد ضغطت الزر ونجحت بالتجربة');">تجربة الزر</a>
+</section>
+
+<footer>
+  <p data-ar="© 2025 جميع الحقوق محفوظة" data-en="© 2025 All rights reserved" data-fr="© 2025 Tous droits réservés"></p>
+</footer>
+
+<script>
+function setLang(lang) {
+  document.documentElement.dir = (lang === 'ar') ? 'rtl' : 'ltr';
+  document.querySelectorAll('[data-' + lang + ']').forEach(el => {
+    el.textContent = el.getAttribute('data-' + lang);
+  });
+}
+setLang('ar');
+</script>
+
+</body>
+</html>
