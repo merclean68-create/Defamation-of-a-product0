@@ -38,7 +38,7 @@
 <header>
   <div style="display:flex;flex-direction:column;align-items:center;gap:20px;">
     <!-- استخدام صور من الإنترنت بدل تحميل محلي -->
-    <img src="https://upload.wikimedia.org/wikipedia/commons/9/90/Mercedes-Logo.png" alt="Mercedes-Benz" class="logo-animate" style="max-width:120px; filter: brightness(0) invert(1);" />
+    <img src="https://fr.vecteezy.com/art-vectoriel/33952867-mercedes-benz-amg-voiture-logo"logo-animate" style="max-width:120px; filter: brightness(0) invert(1);" />
     <div style="position:relative; width:140px; height:140px; margin-top:15px;" class="logo-animate">
       <div style="position:absolute; top:0; left:0; width:100%; height:100%; border:3px solid #1c1c1c; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:64px; font-weight:bold; color:#1c1c1c;">M</div>
       <div style="position:absolute; bottom:10px; right:10px; width:40px; height:40px; background:url('https://upload.wikimedia.org/wikipedia/commons/e/e7/Golden_Eagle_in_flight.jpg') no-repeat center/cover;"></div>
@@ -64,13 +64,13 @@
 
 <section class="tutorial-box">
   <h2 data-ar="📹 شرح فيديو تعليمي" data-en="📹 Video Tutorial" data-fr="📹 Tutoriel vidéo"></h2>
-  <iframe class="video-interactive" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="شرح الفيديو التعليمي" allowfullscreen></iframe>
-  <p data-ar="هذا الفيديو يوضح كيفية التحكم في موقعك وإضافة الأكواد بنفسك" data-en="This video shows how to manage your site and add your own code" data-fr="Cette vidéo montre comment gérer votre site et ajouter votre propre code"></p>
+  <iframe class="video-interactive" src="https://www.youtube.com/watch?v=Gpgb0SQ2Ii0" title="شرح الفيديو التعليمي" allowfullscreen></iframe>
+  <p data-ar="هذا الفيديو يوضح" data-en="This video shows how to manage your site and add your own code" data-fr="Cette vidéo montre comment gérer votre site et ajouter votre propre code"></p>
 </section>
 
 <section class="interactive-box">
-  <h2 data-ar="🖥️ تجربة إضافة كود جديد" data-en="🖥️ Try Adding New Code" data-fr="🖥️ Essayez d'ajouter un nouveau code"></h2>
-  <p data-ar="يمكنك تعديل النص، الضغط على الزر، أو تغيير الصورة المتحركة لتجربة التحكم بنفسك" data-en="You can edit the text, click the button, or change the animated image to try controlling it yourself" data-fr="Vous pouvez modifier le texte, cliquer sur le bouton ou changer l'image animée pour tester vous-même"></p>
+  <h2 data-ar="🖥️ تجربة إضافة " data-en="🖥️ Try Adding New Code" data-fr="🖥️ Essayez d'ajouter un nouveau code"></h2>
+  <p data-ar="  ، الضغط على الزر،  " data-en="You can edit the text, click the button, or change the animated image to try controlling it yourself" data-fr="Vous pouvez modifier le texte, cliquer sur le bouton ou changer l'image animée pour tester vous-même"></p>
   <!-- فيديو عبر الإنترنت بدل رفع محلي -->
   <video class="video-interactive" controls>
     <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
